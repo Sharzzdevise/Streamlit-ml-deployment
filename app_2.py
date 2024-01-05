@@ -23,7 +23,7 @@ def main():
     
     Name = st.text_input("Name","")
     age = st.text_input("Age","0") 
-    image_outcome = st.selectbox(["Normal","Malignant","Benign"]) 
+    image_outcome = st.selectbox("image_outcome",["Normal","Malignant","Benign"]) 
     marital_status = st.selectbox("marital_status",["Divorced","Married-AF-spouse","Married-civ-spouse","Married-spouse-absent","Never-married","Separated","Widowed"]) 
     occupation = st.selectbox("Occupation",["Adm-clerical","Armed-Forces","Craft-repair","Exec-managerial","Farming-fishing","Handlers-cleaners","Machine-op-ins","Other-service","Priv-house","Prof-specialty","Protective","Sales","Tech-support","Transport-moving"]) 
     health_record = st.selectbox("Health_record",["low_risk","high_risk","medium_risk"]) 

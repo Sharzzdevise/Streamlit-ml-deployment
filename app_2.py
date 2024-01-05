@@ -9,6 +9,8 @@ import tensorflow as tf
 # Load the model
 model = tf.keras.models.load_model("c:\\Users\\dimsh\\my_app\\fine_tuned_model")
 
+# Define the encoder_dict as an empty dictionary
+encoder_dict = {}
 
 cols=['image_outcome','marital_status','occupation','health_record','race','gender','mass_size']    
 
